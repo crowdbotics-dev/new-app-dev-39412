@@ -6,5 +6,9 @@ export const globalOptions = {
   "api": "https://new_app_dev_39412.botics.co/api/v1"
 };
 export const modulesOptions = {
-  "@modules/app-menu": {}
+  "@modules/app-menu": {
+    "title": "App Load",
+    "copy": "Route code",
+    "styles": styles
+  }
 };
